@@ -20,8 +20,11 @@ The ConversionAPI is service capable of serving the following endpoints:
 
 1. GET:  /conversions/ktocs/{kelvinunit}
       The ktoc endpoint should produce an output in Celsius when given an input amount in kelvin.
-	  for Example
-       http://localhost:9595/conversions/ktocs/10
+      
+      The URL Example
+     
+     http://localhost:9595/conversions/ktocs/10
+       
 2. GET:   /conversions/ptokg/{poundsunit}
        The ptokg endpoint should produce, when given an input amount in miles, an output amount in kilometres.
 	   For Example 
